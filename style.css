@@ -470,3 +470,12 @@ blockquote{flex-direction:column;align-items:flex-start;font-size:29px;gap:16px}
 .resf span{margin-left:0;width:100%}
 .fm{box-shadow:6px 6px 0 var(--rosa);padding:18px}
 }
+/* fotos novas */
+.banner{margin-bottom:36px}.banner img{display:block;width:100%;height:420px;object-fit:cover;object-position:center 40%;border-radius:0 40px 0 0}
+.regs{display:grid;grid-template-columns:1fr 1fr 1.600fr;gap:20px;align-items:start}
+.regs .pol{color:var(--noite)}.regs .pol:nth-child(1){transform:rotate(-1.500deg)}.regs .pol:nth-child(2){transform:rotate(1deg)}.regs .pol:nth-child(3){transform:rotate(-1deg)}
+.lj{align-items:center;grid-template-columns:1.300fr 1fr}.lj-f img{display:block;width:100%;box-shadow:12px 12px 0 var(--orq)}
+.lj .btn{margin-top:18px}
+.m5{width:300px!important}
+@media (max-width:999px){.banner img{height:auto}.regs{grid-template-columns:1fr 1fr}.regs .pol:nth-child(3){grid-column:1/3}.m5{width:auto!important}.lj{grid-template-columns:minmax(0,1fr)}}
+.banner{max-width:760px}.banner img{height:auto;object-fit:initial}
