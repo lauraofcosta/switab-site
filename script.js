@@ -6,7 +6,7 @@ function mostrar(){
   void alvo.offsetWidth;alvo.classList.add('in');
   hd.className='hd '+alvo.dataset.c;
   document.querySelectorAll('.tab').forEach(t=>{const on=t.dataset.t===alvo.id;t.classList.toggle('on',on);if(on){t.setAttribute('aria-current','page');t.scrollIntoView({block:'nearest',inline:'center'})}else t.removeAttribute('aria-current')});
-  window.scrollTo(0,0);
+  window.scrollTo(0,0);requestAnimationFrame(()=>window.scrollTo(0,0));
 }
 // No computador o desenho é ajustado à largura da janela
 function ajustar(){
