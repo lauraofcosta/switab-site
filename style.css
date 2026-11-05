@@ -479,3 +479,54 @@ blockquote{flex-direction:column;align-items:flex-start;font-size:29px;gap:16px}
 .m5{width:300px!important}
 @media (max-width:999px){.banner img{height:auto}.regs{grid-template-columns:1fr 1fr}.regs .pol:nth-child(3){grid-column:1/3}.m5{width:auto!important}.lj{grid-template-columns:minmax(0,1fr)}}
 .banner{max-width:760px}.banner img{height:auto;object-fit:initial}
+/* === PROPOSTA: consistência === */
+/* rodapé de verdade */
+.site-f{background:#1D0645;color:#E8D2F5;display:grid;grid-template-columns:1.300fr 1fr 1fr .7fr;gap:40px;padding:44px 44px 22px;font-size:16px;flex:none}
+.sf-l{display:flex;align-items:center;gap:10px;color:#fff}.sf-l b{font-size:28px}
+.site-f p{margin:10px 0 12px;max-width:300px}
+.site-f h5{font:700 15px Bric;color:#fff;margin-bottom:10px}
+.site-f nav a{display:block;padding:3px 0}.site-f a:hover{color:#fff;text-decoration:underline}
+.sf-b a{text-decoration:underline}
+.sf-2{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.site-f small{grid-column:1/-1;border-top:1px solid #4A2A7E;padding-top:14px;font-size:14px}
+/* uma só família de cores: roxo e lilás de base, rosa só no botão principal */
+.azul{background-color:var(--vio);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26'%3E%3Ccircle cx='13' cy='13' r='2.2' fill='%23ffffff' opacity='.14'/%3E%3C/svg%3E")}
+.azul .tab.on{background:var(--vio)}
+.hack{color:var(--vio);box-shadow:9px 9px 0 var(--lil)}
+.ev>b{color:var(--vio)}
+.m-azul{background:var(--noite)}
+.cont b{color:#fff}
+.rosa{background:var(--lil)}.rosa .tab.on{background:var(--lil)}
+.pt-bf .a0{color:var(--vio)}.pt-bf .a1{color:#A87BCB}.pt-bf .a2{color:#C9A4DE}.pt-bf .a3{color:var(--orq)}
+.d2{background:var(--orq);color:#fff}
+.orq{background:var(--vio)}.orq .tab.on{background:var(--vio)}
+.m-orq{background:var(--noite)}
+.editor{box-shadow:12px 12px 0 var(--lil)}.editor f{color:var(--lil)}
+.q-spk{color:var(--orq)}
+.vid video{box-shadow:9px 9px 0 var(--lil)}.fm{box-shadow:10px 10px 0 var(--lil)}
+.st.on i{color:var(--lil)}
+.tab.join{background:var(--rosa)}
+/* um só padrão de títulos e margens */
+.q-left h2,.i-head h2,.ini-h h2,.e-left h2,.c-txt h2,.pa-l h2,.m-txt h2{font-size:56px;line-height:1.04}
+.l-h h2{font-size:56px}
+.pt-h{font-size:88px;line-height:.95;letter-spacing:-.03em;width:760px}
+.pt-l{top:232px}
+.ini-h,.cards,.ini-cta{left:44px;right:44px}.ini-h{width:800px}
+.more{padding:64px 44px;gap:64px}
+.mh{font-size:40px;margin-bottom:20px}
+.lead{font-size:20px}
+.btn{padding:13px 24px;font-size:17px}.btn.sm{padding:13px 24px;font-size:17px}
+.l-f .btn,blockquote .btn{padding:13px 24px;font-size:17px}
+.pa-l .lead{font-size:20px}
+.pa-l h4,.pa-r h4{font-size:22px}
+@media (max-width:999px){.site-f{grid-template-columns:1fr 1fr;padding:32px 16px 18px;gap:24px}.sf-b{grid-column:1/-1}
+.q-left h2,.i-head h2,.ini-h h2,.e-left h2,.c-txt h2,.pa-l h2,.o-l h2,.l-h h2{font-size:38px}.pt-h{font-size:56px;width:auto}.btn,.btn.sm{font-size:16px}}
+#inicio .btn{padding:14px 26px;font-size:18px}
+#parte .foot{display:none}
+#parte>main{height:668px}
+.tab.join.on{background:var(--rosa);color:var(--noite)}
+@media (max-width:999px){#parte>main{height:auto}}
+
+#oportunidades .lead{font-size:20px}
+@media (max-width:999px){#comunidade{overflow-x:clip}.mos{overflow:visible}.mos .pol{max-width:100%}}
+.df{flex-wrap:wrap}
